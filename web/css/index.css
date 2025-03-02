@@ -1,0 +1,407 @@
+/* 基础设置 */
+.container {
+    width: 1190px;
+    margin: 0 auto;
+}
+/* #region顶部导航条star */
+.topbar {
+    height: 30px;
+    background-color: #ECECEC;
+}
+.welcom {
+    height: 30px;
+    line-height: 30px;
+    font-size: 0;
+    color: #666;
+}
+.welcom span,.welcom a {
+    font-size: 12px;
+}
+.welcom .hello {
+    margin-right: 28px;
+}
+.welcom .login {
+    padding-right: 10px;
+    border-right: 1px solid #666;
+}
+.welcom .register {
+    padding-left: 10px;
+}
+.topbar-nav {
+    height: 30px;
+    line-height: 30px;
+}
+.topbar-nav .list li {
+    float: left;
+}
+.topbar-nav .list li a {
+    border-right: 1px solid #666;
+    padding: 0 15px;
+}
+.topbar-nav .list li:first-child a {
+    padding-left: 0;
+}
+.topbar-nav .list li:last-child a {
+    padding-right: 0;
+    border: none;
+}
+/* #endregion 顶部导航条end */
+
+/* #region头部开始 */
+.header {
+    height: 120px;
+}
+.search form {
+    margin-top: 42px;
+    font-size: 0;
+}
+.header .search input {
+    width: 508px;
+    height: 34px;
+    border: 1px solid red;
+}
+.header .search button {
+    width: 80px;
+    height: 36px;
+    background-color: red;
+    vertical-align: top;
+    background-image: url(../images/serch_icon.png);
+    background-repeat: no-repeat;
+    background-position: 28px 6px;
+}
+
+/* #endregion尾部结束 */
+
+/* #region主要导航开始 */
+.majorbar {
+    height: 48px;
+    border-bottom: 1px solid red;
+}
+.majorbar .kindnav {
+    background-color: red;
+    font-size: 16px;
+    color: white;
+    height: 48px;
+    width: 190px;
+    text-align: center;
+    line-height: 48px;
+}
+.major-list {
+    height: 48px;
+    line-height: 48px;
+}
+.majorbar .major-list li {
+    float: left;
+    padding: 0 10px;
+    font-size: 16px;
+}
+/* #endregion主要导航结束 */
+
+/* #region内容区左侧导航开始 */
+.leftcontainer {
+    height: 458px;
+    width: 190px;
+    background-color: #ECECEC;
+    margin: 10px 0;
+}
+.leftcontainer li {
+    font-size: 14px;
+    height: 28px;
+    line-height: 28px;
+    padding-left: 16px;
+}
+.leftcontainer li:hover {
+    background-color: red;
+}
+.leftcontainer li:hover>a {
+    color: white;
+}
+
+.kindbar {
+    position: relative;
+}
+.second-menu {
+    width: 670px;
+    height: 458px;
+    background-color: rgb(253, 255, 254);
+    position: absolute;
+    top: 0;
+    left: 190px;
+    padding-left: 20px;
+    display: none;
+}
+.sidebar .leftcontainer li:hover .second-menu{
+    display: block;
+}
+.second-menu dl {
+    height: 36px;
+    line-height: 36px;
+}
+.second-menu dl:first-child {
+    margin-top: 10px;
+}
+.second-menu dt {
+    float: left;
+    width: 70px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.second-menu dd {
+    float: left;
+}
+.second-menu dd a {
+    border-left: 1px solid #666;
+    padding: 0 10px;
+}
+.midbanner {
+    height: 458px;
+    width: 690px;
+    margin: 10px 10px;
+}
+.sidebar .rightarea {
+    height: 458px;
+    width: 290px;
+}
+.rightarea .message {
+    width: 260px;
+    height: 156px;
+    border: 1px solid #d9d9d9;
+    margin-top: 10px;
+    padding: 0 14px;
+}
+
+.rightarea .message .title {
+    height: 38px;
+    line-height: 38px;
+    border-bottom: 1px solid #d9d9d9;
+}
+.rightarea .message .title span {
+    font-size: 14px;
+}
+.rightarea .message .title a {
+    font-size: 12px;
+}
+.rightarea .message .notice ul li {
+    width: 262;
+    height: 26px;
+}
+.rightarea .message .notice li:first-child {
+    margin-top: 10px;
+}
+
+.rightarea .right-nav {
+    width: 290px;
+    height: 290px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.right-nav ul:first-child {
+    margin-top: 16px;
+}
+.right-nav ul:nth-child(2) {
+    margin: 17px 0;
+}
+.rightarea .right-nav .live li {
+    width: 48px;
+    height: 70px;
+    float: left;
+    margin: 0 11px;
+    text-align: center;
+    cursor: pointer;
+}
+.right-nav .live .picture {
+    width: 48px;
+    height: 48px;
+    background-image: url(../images/精灵图-侧边功能.png);
+}
+.right-nav .live:nth-child(1) li:nth-child(1) .picture {
+    background-position: 0 0;
+}
+.right-nav .live:nth-child(1) li:nth-child(2) .picture {
+    background-position: -48px 0;
+}
+.right-nav .live:nth-child(1) li:nth-child(3) .picture {
+    background-position: -96px 0;
+}
+.right-nav .live:nth-child(1) li:nth-child(4) .picture {
+    background-position: -144px 0;
+}
+.right-nav .live:nth-child(2) li:nth-child(1) .picture {
+    background-position: 0 -48px;
+}
+.right-nav .live:nth-child(2) li:nth-child(2) .picture {
+    background-position: -48px -48px;
+}
+.right-nav .live:nth-child(2) li:nth-child(3) .picture {
+    background-position: -96px -48px;
+}
+.right-nav .live:nth-child(2) li:nth-child(4) .picture {
+    background-position: -144px -48px;
+}
+.right-nav .live:nth-child(3) li:nth-child(1) .picture {
+    background-position: 0 -96px;
+}
+.right-nav .live:nth-child(3) li:nth-child(2) .picture {
+    background-position: -48px -96px;
+}
+.right-nav .live:nth-child(3) li:nth-child(3) .picture {
+    background-position: -96px -96px;
+}
+.right-nav .live:nth-child(3) li:nth-child(4) .picture {
+    background-position: -144px -96px;
+}
+/* #endregion内容区左侧导航结束 */
+
+/* #region秒杀区开始 */
+.discontarea .container img{
+    float: left;
+    margin-right: 11px;
+    cursor: pointer;
+}
+.discontarea .container img:last-child {
+    margin-right: 0;
+}
+/* #endregion秒杀区结束 */
+
+/* #region楼层区开始 */
+.floor {
+    margin-top: 48px;
+}
+.floor .floor-topnav {
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 2px solid red;
+    padding-bottom: 4px;
+}
+.floor .floor-topnav .right-font {
+    font-size: 20px;
+}
+.floor .floor-topnav ul li {
+    float: left;
+    font-size: 16px;
+}
+.floor .floor-topnav ul li a {
+    border-right: 1px #666 solid;
+    padding:0 10px;
+}
+.floor .floor-topnav ul li:first-child a {
+    padding-left: 0;
+}
+.floor .floor-topnav ul li:last-child a {
+    padding-right: 0;
+    border-right: 0;
+}
+
+.floor .item {
+    float: left;
+    height: 432px;
+}
+.floor .underbanner .item1 {
+    width: 190px;
+    height: 392px;
+    background-color: #F4F4F4;
+    padding: 20px;
+}
+.floor .underbanner .item1 .fontarea {
+    width: 190px;
+    height: 108px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.floor .underbanner .item1 .fontarea .line div:hover {
+    color: red;
+}
+.floor .underbanner .item1 .fontarea .line div:first-child {
+    width: 90px;
+    height: 22px;
+    padding-bottom: 3.5px;
+    border-bottom: 1px solid #d9d9d9;
+    float: left;
+    font-size: 16px;
+}
+.floor .underbanner .item1 .fontarea .midline
+{
+    margin: 14.4px 0; 
+}
+.floor .underbanner .item1 .fontarea .line div:last-child {
+    float: right;
+    width: 90px;
+    height: 22px;
+    padding-bottom: 3.5px;
+    border-bottom: 1px solid #d9d9d9;
+    font-size: 16px;
+}
+.floor .underbanner .item2 {
+    width: 340px;
+}
+.floor .underbanner .item3,.item4 {
+    width: 206px;
+    border-right: 1px solid #e2e2e2;
+}
+.floor .underbanner .item3 img,.item4 img,.item5 img {
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.floor .underbanner .item5 {
+    width: 206px;
+}
+/* #endregion楼层区结束 */
+
+/* #region页脚开始 */
+.foot {
+    height: 440px;
+    background-color: #483e3e;
+    margin-top: 48px;
+}
+.foot .links-list {
+    width: 190px;
+    height: 176px;
+    margin-top: 48px;
+    margin-right: 10px;
+    float: left;
+}
+.foot .links-list:last-child {
+    margin-right: 0;
+}
+.foot .foot-up-nav .links-list li a {
+    font-size: 14px;
+    color: white;
+}
+.foot-line {
+    height: 1px;
+    background-color: #584d4d;
+    margin-top: 22px;
+}
+/* .foot-bottom-list {
+
+    /* 使用以下方法水平居中的前提是该元素要有宽度 */
+    /* margin: 0 auto; 
+}*/
+.foot-bottom-list {
+    display: inline-block;
+}
+.foot-down-nav {
+    /* 不能让块元素水平剧中 */
+    text-align: center;
+    margin-top: 47px;
+}
+.foot-bottom-list li {
+    float: left;
+}
+.foot-bottom-list li a {
+    padding: 0 26px;
+    border-right: 1px solid #d9d9d9;
+}
+.foot-bottom-list li:first-child a {
+    padding-left: 0;
+}
+.foot-bottom-list li:last-child a {
+    padding-right: 0;
+    border: 0;
+}
+.foot-down-nav .idnum {
+    margin-top: 10px;
+    color: #d9d9d9;
+}
+/* #endregion页脚结束 */
+
